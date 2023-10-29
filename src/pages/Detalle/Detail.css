@@ -1,0 +1,62 @@
+:root {
+    --primary-color: #FF385C;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.preview-image {
+    max-width: 500px;
+    max-height: 400px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.large-text {
+    font-size: larger;
+}
+
+.sm-text {
+    font-size: small;
+}
+
+.md-text {
+    font-size: medium;
+}
+
+.align-centered {
+    align-self: center;
+}
+
+.justify-centered {
+    justify-self: center;
+}
+
+.primary-border {
+    border-radius: 10px; 
+    border: solid 2px var(--primary-color);
+}
+
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.bg-disabled {
+    background-color: lightgray !important;
+}
+
+.lg-button {
+    width: 100%;
+}
+
+input {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    font-size: medium;
+}

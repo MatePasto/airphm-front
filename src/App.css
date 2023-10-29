@@ -1,0 +1,4 @@
+.page-conteiner {
+  min-height: calc(100vh - 8rem);
+  padding: 4rem 0;
+}

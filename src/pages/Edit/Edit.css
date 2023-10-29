@@ -1,0 +1,28 @@
+:root {
+    --primary-color: #FF385C;
+}
+
+.primary-text {
+    color: var(--primary-color)
+}
+
+.xl-field > div textarea{
+    min-width: 500px !important;
+    min-height: 200px !important;
+}
+
+.lg-field {
+    min-width: 350px !important;
+    
+}
+
+.sm-field {
+    max-width: 100px !important;
+}
+
+.css-u4tvz2-MuiFormLabel-root.Mui-focused{
+    color: var(--primary-color) !important
+}
+.css-v4u5dn-MuiInputBase-root-MuiInput-root:after{
+    border-bottom: 1px solid var(--primary-color) !important;
+}

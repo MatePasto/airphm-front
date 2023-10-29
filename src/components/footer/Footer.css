@@ -1,0 +1,25 @@
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    background-color: #2a2a2a;
+    color:white;
+    font-size: 1.25rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-top: 1vh;
+    min-width:max-content;
+    min-height: 3.2rem;
+  }
+  
+.footer-content .facebook-img {
+  size: 2.5rem;
+  color: white;
+  padding-right: "0.5rem";
+}
+
+.footer-content .facebook-img:hover{
+  cursor: pointer;
+}

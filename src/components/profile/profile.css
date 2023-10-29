@@ -1,0 +1,65 @@
+:root {
+    --primary-color: #FF385C;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 0;
+}
+
+.sub-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.profile-detail {
+    min-height: 100%;
+}
+
+.profile-item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem !important;
+}
+
+.profile-link {
+    text-indent: 3rem;
+    user-select: none;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin-left: 2rem;
+    user-select: none;
+}
+
+.primary-color {
+    background-color: var(--primary-color) !important;
+}
+
+.primary-color-item {
+    color: var(--primary-color) !important;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.rating-star {
+    display: flex;
+    padding: 1rem;
+}
+
+.rating-star:hover {
+    color: var(--primary-color);
+}

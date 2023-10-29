@@ -1,0 +1,44 @@
+.searchbar {
+  background-color: #6b6b6b;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.searchbar__input-container {
+  padding: 10px;
+}
+
+.searchbar__input .MuiInputBase-root {
+  border-radius: 20px;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+.searchbar__input .MuiInputBase-input {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.searchbar__input .MuiInputAdornment-root {
+  position: absolute;
+  right: 10px;
+}
+
+.searchbar__input {
+  width: 180px;
+}
+
+.searchbar__button-container {
+  padding: 10px;
+}
+
+.searchbar__button {
+  width: 40px;
+  height: 40px;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}

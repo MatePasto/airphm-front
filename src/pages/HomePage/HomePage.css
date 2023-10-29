@@ -1,0 +1,25 @@
+.home-page {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+.content__cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+}
+
+.content__card-container {
+  padding: 20px;
+  width: 420px;
+}
+
+.home-page__paginator-container {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.snackbar {
+  height: 100%;
+}
